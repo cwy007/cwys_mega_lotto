@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["cwy007"]
   spec.email         = ["chanweiyan007@gmail.com"]
 
-  spec.summary       = %q{Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{Write a longer description or delete this line.}
+  spec.summary       = %q{CwysMegaLotto::Drawing.new.draw #=> [24, 6, 20, 37, 22, 43]}
+  spec.description   = %q{根据 build a ruby gem 这本书上的例子写成}
   spec.homepage      = "https://cwy007.github.io"
   spec.license       = "MIT"
 
@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
     spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = spec.homepage
+    spec.metadata["source_code_uri"] = "https://github.com/cwy007/cwys_mega_lotto"
     spec.metadata["changelog_uri"] = spec.homepage
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
