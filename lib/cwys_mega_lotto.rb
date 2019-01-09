@@ -3,7 +3,6 @@ require "cwys_mega_lotto/drawing"
 
 begin
   require "pry"
-  require "rspec"
 rescue LoadError
 end
 
