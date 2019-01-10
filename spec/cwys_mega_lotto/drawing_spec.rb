@@ -25,6 +25,3 @@ RSpec.describe CwysMegaLotto::Drawing do
     end
   end
 end
-
-# module CwysMegaLotto
-# end
