@@ -1,0 +1,6 @@
+#!/usr/exe/env ruby
+
+require_relative "../lib/cwys_mega_lotto/drawing"
+
+drawing = CwysMegaLotto::Drawing.new.draw
+puts drawing
